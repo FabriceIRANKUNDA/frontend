@@ -11,7 +11,7 @@ function App() {
           {" "}
           <Pay />
         </Route>
-        <Route path="/" exact>
+        <Route path="/">
           <RegisterForm />
         </Route>
       </Switch>
