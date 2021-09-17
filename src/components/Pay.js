@@ -29,7 +29,7 @@ const Pay = () => {
     try {
       const res = await axios({
         method: "POST",
-        url: "http://localhost:9090/api/pay",
+        url: "https://xyz-part-ii.herokuapp.com/api/pay",
         data,
       });
 
@@ -66,7 +66,7 @@ const Pay = () => {
 
   const handleQuit = (e) => {
     e.preventDefault();
-    window.location.replace("http://localhost:3000/");
+    window.location.replace("http://localhost:3001/");
   };
   return (
     <div className={classes.container}>

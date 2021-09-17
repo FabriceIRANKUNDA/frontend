@@ -61,7 +61,7 @@ const RegisterForm = (props) => {
     try {
       await axios({
         method: "POST",
-        url: "http://localhost:9090/api/register",
+        url: "https://xyz-part-ii.herokuapp.com/api/register",
         data,
       });
       window.location.replace("http://localhost:3000/pay");
