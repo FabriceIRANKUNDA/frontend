@@ -57,7 +57,6 @@ const Pay = () => {
     }
 
     setState({ ...state, formErrors: temp });
-    console.log(state);
 
     if (validateUserForm(state, state.formErrors)) {
       callBackend(data);
