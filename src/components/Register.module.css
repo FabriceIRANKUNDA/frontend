@@ -1,16 +1,20 @@
 .container {
   margin: 2rem auto;
-  width: 50%;
+  width: 45%;
 }
 
 .form {
-  margin-top: 3rem;
+  margin-top: 2rem;
+  background-color: #fff;
+  box-shadow: 0 1px 10px 5px rgba(0, 0, 0, 0.25);
+  padding: 1.5rem;
+  border-radius: 3px;
 }
 
 .formControl {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 100%;
   margin-bottom: 10px;
 }
 
@@ -40,7 +44,7 @@
 }
 
 .button {
-  width: 70%;
+  width: 100%;
   padding: 15px 10px;
   background-color: rgb(44, 44, 187);
   color: #fff;

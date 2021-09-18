@@ -19,7 +19,6 @@ export const validateUserForm = (rest, formErrors) => {
 };
 
 const RegisterForm = (props) => {
-  console.log(props);
   const [state, setState] = useState({
     name: "",
     phone: "",
@@ -99,8 +98,10 @@ const RegisterForm = (props) => {
 
   return (
     <div className={classes.container}>
+      <div style={{textAlign: 'center'}}>
       <h1> Welcome To Our Site </h1>
       <p> Provide us with these least information </p>
+      </div>
       <form className={classes.form}>
         <div className={classes.formControl}>
           <label>Names: </label>
