@@ -40,7 +40,7 @@ const RegisterForm = (props) => {
         temp.name = value.length < 2 ? "Name is required!" : "";
         break;
       case "phone":
-        temp.phone = value.length < 2 ? "Phone is required!" : "";
+        temp.phone = value.length < 10 ? "Phone is required!" : "";
         break;
       case "email":
         temp.email = value.length < 2 ? "Email is required!" : "";
@@ -124,7 +124,7 @@ const RegisterForm = (props) => {
             value={state.email}
             onChange={handleChange}
             className={
-              state.formErrors.name.length > 0
+              state.formErrors.email.length > 0
                 ? classes.redBorder
                 : classes.formControlInput
             }
@@ -139,7 +139,7 @@ const RegisterForm = (props) => {
             value={state.phone}
             onChange={handleChange}
             className={
-              state.formErrors.name.length > 0
+              state.formErrors.phone.length > 0
                 ? classes.redBorder
                 : classes.formControlInput
             }
@@ -154,7 +154,7 @@ const RegisterForm = (props) => {
             value={state.project}
             onChange={handleChange}
             className={
-              state.formErrors.name.length > 0
+              state.formErrors.project.length > 0
                 ? classes.redBorder
                 : classes.formControlInput
             }
