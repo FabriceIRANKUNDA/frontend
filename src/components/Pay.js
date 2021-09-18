@@ -5,7 +5,7 @@ import classes from "./Pay.module.css";
 
 const Pay = () => {
   const [state, setState] = useState({
-    amount: 10000,
+    amount: 100,
     phone: "",
     formErrors: {
       phone: "",

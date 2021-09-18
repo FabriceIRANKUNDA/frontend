@@ -65,6 +65,7 @@ const RegisterForm = (props) => {
       });
       window.location.replace("https://you-pay.netlify.app/pay");
     } catch (err) {
+      console.log(err)
       alert("Number or Email are taken, Please try other Info");
     }
   };
