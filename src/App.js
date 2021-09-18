@@ -2,6 +2,7 @@ import React from "react";
 import RegisterForm from "./components/RegisterForm";
 import { Route, Switch } from "react-router-dom";
 import Pay from "./components/Pay";
+import Success from "./components/Success";
 
 function App() {
   return (
@@ -10,6 +11,10 @@ function App() {
         <Route path="/pay">
           {" "}
           <Pay />
+        </Route>
+        <Route path="/success">
+          {" "}
+          <Success />
         </Route>
         <Route path="/">
           <RegisterForm />

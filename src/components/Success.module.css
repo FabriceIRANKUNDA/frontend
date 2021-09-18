@@ -1,0 +1,41 @@
+.container {
+    margin: 20rem auto;
+    width: 45%;
+  }
+
+  
+.form {
+    margin-top: 2rem;
+    background-color: #fff;
+    box-shadow: 0 1px 10px 5px rgba(0, 0, 0, 0.25);
+    padding: 3rem;
+    border-radius: 3px;
+  }
+
+  .button{
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 20px;
+    color: #ffcc66;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: all .2s;
+  }
+
+  .button:hover{
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #ffcc66;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
