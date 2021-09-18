@@ -66,7 +66,7 @@ const Pay = () => {
 
   const handleQuit = (e) => {
     e.preventDefault();
-    window.location.replace("http://localhost:3001/");
+    window.location.replace("https://you-pay.netlify.app/");
   };
   return (
     <div className={classes.container}>

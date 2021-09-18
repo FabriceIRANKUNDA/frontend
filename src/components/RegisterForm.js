@@ -64,7 +64,7 @@ const RegisterForm = (props) => {
         url: "https://xyz-part-ii.herokuapp.com/api/register",
         data,
       });
-      window.location.replace("http://localhost:3000/pay");
+      window.location.replace("https://you-pay.netlify.app/pay");
     } catch (err) {
       alert("Faled try again later, with other information");
     }
