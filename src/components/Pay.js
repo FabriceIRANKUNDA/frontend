@@ -77,7 +77,7 @@ const Pay = () => {
             className={classes.formControlInput}
             type="text"
             name="name"
-            placeholder="10,000"
+            placeholder="100"
             disabled={true}
           />
         </div>
