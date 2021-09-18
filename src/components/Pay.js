@@ -36,7 +36,7 @@ const Pay = () => {
       if (res.data.status === "success") {
         window.location.replace(res.data.meta.authorization.redirect);
       } else {
-        alert("Failed try again later");
+        alert(res.data.message)
       }
     } catch (err) {
       alert(err);
