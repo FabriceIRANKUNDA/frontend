@@ -69,7 +69,7 @@ const Pay = () => {
   };
   return (
     <div className={classes.container}>
-      <h1> Pay Here Your Upfront </h1>
+      <h1 style={{textAlign: 'center'}}> Pay Here Your Upfront </h1>
       <form className={classes.form}>
         <div className={classes.formControl}>
           <label>Amount: </label>
